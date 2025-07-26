@@ -1,5 +1,5 @@
 
-import '../Styles/Dom.css'
+import '../../Styles/Dom.css'
 
 import {useState } from 'react'
 

@@ -1,6 +1,9 @@
-import Clearinput from './ClearInputBox/Clearinput'
-import Dom from './Changecircletosquare/Dom'
-import UseEffect from './CustomHook/UseEffect';
+import Clearinput from './Components/ClearInputBox/Clearinput'
+import Dom from './Components/Changecircletosquare/Dom'
+import UseEffect from './Components/CustomHook/UseEffect';
+import Lifecycle from './Components/ReactLifeCycle/Lifecycle';
+import UseMemo from './Components/UseMemoVsUseCallBacks/UseMemo';
+import UseCallback from './Components/UseMemoVsUseCallBacks/UseCallback';
 
 const App =() => {
  
@@ -8,7 +11,10 @@ const App =() => {
    <div>
   {/* <Dom/> */}
  {/* <Clearinput/> */}
- <UseEffect/>
+ {/* <UseEffect/> */}
+ {/* <Lifecycle/> */}
+ {/* <UseMemo/> */}
+ <UseCallback/>
 
     </div>
   )
